@@ -1,1 +1,8 @@
+az app funkicoja:
 
+1.)  beolvasni az stadat-nep0001.xlsx-ben található adatokat. Év, Élveszületés összesen, Élveszületés ezer lakosra.
+2.)  megjeleníteni egy pont és egy vonaldiagrammon a beolvasott értékeket. X: Élveszületés összesen, Y - év 
+
+2.a  elemzés: 2011-2023 közt nem exponenciálisan csökken az élveszületett gyerekek száma. 2024-re ez visszaesik a 2011-es értékek alá. Tehát gazdasági intézkedésekkel csak rövid távon fenttartható a születendő gyermekek számának növekedése.
+
+3.)  linearis regresszióval megjósolni mikor lesz az élveszületés ezer lakosra < 4 (1900-ban 1000 lakosra 40gyerek volt a becsült érték).
