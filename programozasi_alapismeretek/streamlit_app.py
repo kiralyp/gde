@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 import analysis.linear_regression
-import data.data_model
-import visualization.chart_generator
+import data.datamodel
+import visualization.chart
 
 
 # ? remove unused main

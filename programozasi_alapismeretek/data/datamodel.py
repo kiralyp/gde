@@ -2,7 +2,7 @@ from dataclasses import InitVar, dataclass, field
 
 import pandas as pd  # only used for type hinting
 
-from data.data_handler import load_and_preprocess_data
+from data.datahandler import load_and_preprocess_data
 
 
 @dataclass

@@ -3,8 +3,6 @@ from dataclasses import InitVar, dataclass, field
 import numpy as np
 import pandas as pd
 from sklearn import linear_model
-
-
 @dataclass
 class FittedModel:
     x: InitVar[pd.DataFrame]
