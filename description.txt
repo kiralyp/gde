@@ -1,0 +1,1 @@
+megjeleníteni 1900-2023-ig élve született gyerekek száma az eltelt idő függvényében.
