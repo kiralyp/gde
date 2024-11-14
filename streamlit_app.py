@@ -15,7 +15,7 @@ def main() -> None:
 def run_streamlit_app() -> None:
     sns.set_style("whitegrid")
     fig, axes = plt.subplots(3, figsize=(8, 8))
-    ksh_data = data.data_model.StatisticalData("data/stadat-lak0001.xlsx")
+    ksh_data = data.data_model.StatisticalData("data/stadat-nep0001.xlsx")
     lr_model = analysis.linear_regression.FittedModel(ksh_data.lr_x, ksh_data.lr_y)
     lr_chart = visualization.chart_generator.generate_lr_chart(
         ksh_data.lr_x, ksh_data.lr_y, lr_model.prediction, axes[0]
