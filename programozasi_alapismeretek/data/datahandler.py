@@ -1,6 +1,5 @@
 import pandas as pd
 
-file_path = "data/stadat-nep0001.xlsx"
 
 def load_and_preprocess_data(file_path: str) -> pd.DataFrame:
     """

@@ -16,10 +16,10 @@ class StatisticalData:
 
     def __post_init__(self, file_path: str) -> None:
         self.data = load_and_preprocess_data(file_path)
-        self.lr_x = self.data[["Lakáspiaci tranzakció"]]
-        self.lr_y = self.data["Folyósított lakáshitel, db"]
+        self.lr_x = self.data[["Év"]]
+        self.lr_y = self.data["Élveszületés összesen, db"]
         self.line_x = self.data["Év"]
-        self.line_y = self.data["Lakásállomány, január 1."]
+        self.line_y = self.data["Élveszületés ezer lakosra"]
 
     def set_line_y(self, column: str) -> None:
         self.line_y = self.data[column]
