@@ -1,6 +1,6 @@
 import pandas as pd
 
-
+def filepath = data/stadat-nep0001.xlsx
 def load_and_preprocess_data(file_path: str) -> pd.DataFrame:
     """
     Load and preprocess data from an Excel file.
